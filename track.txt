@@ -1,0 +1,37 @@
+
+
+
+
+
+# git
+ - a tool, which works locally and tracks file changes :  
+  
+# github
+ - a cloud platform / to host repo's for developer to collobrate and work together. 
+  
+# gitlab
+ - a cloud platform used majorly for devops and ci/cd 	
+ 
+ 
+# git init -> intialize empty and reintialize the Git repository. 
+
+# git config 
+	- list : list down all the variable set in the config information
+		> git config list (modern version)	
+	- set : assign a value to specific key 
+		> git config set user.name "username"
+	- unset : unset/remove the key from the config
+		> git config unset user.name 
+	
+# git add 
+	- . : push all the file exist in current and sub-directory into the staging area : 
+		> git add . 
+	- --all : push all the file into the staging area which exist in the current-repo  
+		> git add --all 
+	- -u : stages only the updating and deleted file, not the newly created : 
+		> git add -u 	
+	- * : wildcard match for all the file with particular name and extenstion (*.txt, *.js) : 
+		>  git add *.js 
+		
+		
+		
