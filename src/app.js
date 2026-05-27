@@ -14,7 +14,8 @@ app.use('/api/auth', authRoute);
 
 app.use('/', (req, res)=> {
     console.log("application level route"); 
-})
+}); 
+
 
 
 export default app; 
