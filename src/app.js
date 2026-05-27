@@ -8,6 +8,9 @@ const app = express();
 app.use(cors()); 
 app.use(express.json()); 
 
+app.use('/', (req, res)=> {
+    console.log("application level route"); 
+})
 
 
 export default app; 
